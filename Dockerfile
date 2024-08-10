@@ -8,10 +8,10 @@ RUN apt-get update && apt-get install -y git supervisor
 WORKDIR /app
 
 # Clone your GitHub repository into the Docker image
-RUN git clone https://github.com/Your-UserName/Testleaf-pos .
+RUN git clone https://github.com/VikashRepository07/Testleaf-posTeam4.git .
 
 # Optionally, specify the branch or commit you want to clone
-CMD cd Testleaf-pos
+CMD cd Testleaf-posTeam4
 RUN git pull
 
 # Install project dependencies in the root directory and api directory
